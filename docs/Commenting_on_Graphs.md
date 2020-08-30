@@ -7,23 +7,6 @@ Comment-system allows user to comment on different graph components similar to a
 2. **Edge** - Users can comment on an edge.
 3. **Subgraph** - Users can comment on a combination of nodes and edges (a subgraph).
 
-The following features are available in the Comment system functionality:
-- [Adding comments](#adding-comments)
-- [Viewing comments](#viewing-comments)
-- [Replying to comments](#replying-to-comments)
-- [Real-time experience of add and reply to comments](#real-time-experience-of-add-and-reply-to-comments)
-- [Editing comments](#editing-comments)
-- [Resolving comments](#resolving-comments)
-- [Deleting comments](#deleting-comments)
-- [Re-opening resolved comments](#re-opening-resolved-comments)
-- [Real-time experience of edit resolve reopen and delete comments](#real-time-experience-of-edit-resolve-reopen-and-delete-comments)
-- [Displaying comments associated with selected graph](#displaying-comments-associated-with-selected-graph)
-- [Highlighting subgraph associated with a comment](#highlighting-subgraph-associated-with-a-comment)
-- [React unreact to the comments and replies]
-(#react-unreact-to-the-comments-and-replies)
-
-
-
 ## Adding comments
 
 Every graph has a tab named `Graph Visualization`, on opening this tab we can see a side panel on the right side of the graph. To add a comment we have to click on the `comments` button.
@@ -71,7 +54,7 @@ Since comment-system provides real-time experience using `Web-sockets` the follo
 
 User can edit comment messages by clicking on the `icon` present in the top-right corner of the comment box and clicking on `Edit` option. After that the user can enter the new message and click on `Edit` button to update the comment message.
 
-![Edit Comment Gif](_static/gifs/comments/gs-screenshot-editing-comments.gif)
+![Edit Comment Gif](_static/gifs/gs-screenshot-editing-comments.gif)
 
 **Permissions**
 1)  Only the creator of the comment can edit the comment message.
@@ -110,7 +93,7 @@ User can edit comment messages by clicking on the `icon` present in the top-righ
 
 All the real-time functionality involving editing, resolving, deleting and re-opening the comments is demonstrated in the gif below.
 
-![Real Time Experience Edit Resolve Reopen Delete Gif](_static/gifs/comments/gs-screenshot-real-time-experience-of-edit-resolve-reopen-and-delete-comments.gif)
+![Real Time Experience Edit Resolve Reopen Delete Gif](_static/gifs/gs-screenshot-real-time-experience-of-edit-resolve-reopen-and-delete-comments.gif)
 
 ## Displaying comments associated with selected graph
 
@@ -132,8 +115,7 @@ All the real-time functionality involving editing, resolving, deleting and re-op
 
 ## React unreact to the comments and replies
 
-1) User has the ability to filter comments to view only the comments related to a graph by clicking on the radio button `View comments related to selected graph`.
-2) User has to select the part of the graph on which he wishes to view the comments and the comments related to that part of the graph are listed down.
+User can react unreact comment messages by clicking on the `emoji icon` present in the top-right corner of the comment box and clicking on `Emoji`. After that if user want to unreact then clicking on the same emoji again from the emoji icon in the top-right corner .
 
 ![Display React-unreact on comments Gif](_static/gifs/gs-screenshot-react-unreact-on-comments.gif)
 
